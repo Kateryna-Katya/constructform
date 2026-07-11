@@ -182,3 +182,79 @@ text-align: left;
             font-size: 24px;
         }
 }
+/* Game Modes */
+.desk{
+    display: none;
+}
+.modes-section{
+    background: var(--bg1);
+}
+.modes-container{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.modes-title{
+    color: var(--text-black);
+}
+.modes-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.modes-list-item{
+    border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        padding: 20px;
+        width: 327px;
+        height: 106px;
+        box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            background: var(--text-white);
+}
+.modes-list-item-title{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+}
+.modes-list-item-text{
+        font-size: 16px;
+        margin-top: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.desk {
+        display: inline;
+    }
+.mob{
+    display: none;
+}
+.modes-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+    .modes-list {
+        margin-top: 40px;
+        flex-direction: row;
+        justify-content: center;;
+        gap: 16px;
+    }
+
+    .modes-list-item {
+        border-radius: 24px;
+        padding: 24px;
+        width: 400px;
+        height: 136px;
+    }
+
+    .modes-list-item-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 131%;
+    }
+
+    .modes-list-item-text {
+        font-size: 24px;
+    }
+}
+/* Advantages */
