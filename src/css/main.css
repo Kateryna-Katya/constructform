@@ -49,3 +49,21 @@
 }
 
 }
+/* About the Game */
+.about-section{
+    background: var(--bg2);
+}
+.about-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    color: var(--text-white);
+    text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+.about-text-wrapper{
+    gap: 40px;
+}
+
+}
