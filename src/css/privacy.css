@@ -11,7 +11,10 @@
     color: #000;
     line-height: normal;
 }
-
+.policy-container{
+    padding-left: 8px;
+    padding-right: 8px;
+}
 .privacy-title {
 font-family: var(--second-family);
     font-weight: 700;
@@ -30,17 +33,22 @@ font-family: var(--second-family);
 }
 
 .policy-subtitle {
-    font-family: "Fredoka", sans-serif;
-    font-weight: 400;
+font-family: "Inter", sans-serif;
+    font-weight: 700;
     font-size: 20px;
-    line-height: 1.5;
-    text-transform: uppercase;
-    color: #c8cbe7;
+    color: #000;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
 }
-
+.article{
+font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .policy-link {
     display: flex;
     align-items: center;
@@ -73,12 +81,21 @@ font-family: var(--second-family);
 
 @media only screen and (min-width: 1439px) {
     .privacy-title {
-        font-size: 48px;
+font-size: 50px;
     }
 
     .policy-container {
-        padding-left: 223px;
-        padding-right: 223px;
+        padding-left: 74px;
+        padding-right: 70px;
     }
+.background {
+font-size: 24px;
+}
+.policy-subtitle {
+font-size: 30px;
+}
 
+.article {
+font-size: 26px;
+}
 }
