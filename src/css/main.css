@@ -257,4 +257,46 @@ padding-bottom: 50px;
         font-size: 24px;
     }
 }
-/* Advantages */
+/* Player Benefits */
+.benefits-section{
+    background: var(--bg1);
+}
+.benefits-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.benefits-title{
+    color: var(--text-black);
+}
+.benefits-container p{
+    text-align: left;
+}
+.benefits-list{
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.benefits-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .benefits-title {
+        color: var(--text-black);
+    }
+
+    .benefits-container p {
+        text-align: center;
+    }
+
+    .benefits-list {
+        margin-top: 40px;
+        gap: 40px;
+    }
+}
+    
